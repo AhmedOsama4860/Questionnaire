@@ -43,7 +43,7 @@ function fetchImages() {
   )
     .then((response) => response.json())
     .then((result) => {
-      console.log(myDB);
+      // console.log(myDB);
 
       const h3 = document.createElement("h3");
       h3.textContent = "Select places you like the most:";
